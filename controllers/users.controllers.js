@@ -28,7 +28,7 @@ const usuarioPost = (req, res = response) => {
 }
 
 const usuarioPut = (req, res = response) => {
-    const { id } = req.params.id;
+    const { id } = req.params;
 
     res.json({
         msg: 'put API - controlador put',

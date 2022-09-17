@@ -18,9 +18,9 @@ router.post('/', usuarioPost );
 //  los query params como son opciones no se colocan aqui
 router.put('/:id', usuarioPut ); 
 
-router.delete('/', usuarioPatch ); 
+router.delete('/', usuarioDelete ); 
 
-router.patch('/', usuarioDelete );
+router.patch('/', usuarioPatch );
 
 
 export {
